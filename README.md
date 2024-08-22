@@ -12,3 +12,4 @@ arr[i]=random.nextInt(100);
 System.out.printn("generate number is:"+(number+1))
 }
 }
+uu
