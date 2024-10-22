@@ -1,37 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
     <link rel="stylesheet" href="styles.css">
+    <title>Task Tracker</title>
 </head>
-
 <body>
-    <header>
-        <h1>Welcome to My Landing Page</h1>
-        <p>Your one-stop solution for web development.</p>
-        <a href="#services" class="cta-button">Learn More</a>
-    </header>
-    <section id="services">
-        <h2>Our Services</h2>
-        <div class="service">
-            <h3>Web Design</h3>
-            <p>Creating beautiful and user-friendly websites.</p>
-        </div>
-        <div class="service">
-            <h3>Development</h3>
-            <p>Building robust web applications tailored to your needs.</p>
-        </div>
-        <div class="service">
-            <h3>SEO</h3>
-            <p>Improving your website's visibility on search engines.</p>
-        </div>
-    </section>
-    <footer>
-        <p>&copy; 2024 My Landing Page</p>
-    </footer>
-</body>
+    <div class="container">
+        <h1>Task Tracker</h1>
+        <form id="task-form">
+            <input type="text" id="task-input" placeholder="Add a new task..." required>
+            <button type="submit">Add Task</button>
+        </form>
+        <ul id="task-list"></ul>
+    </div>
 
+    <script src="script.js"></script>
+</body>
 </html>
