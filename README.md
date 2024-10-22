@@ -1,15 +1,22 @@
-import java.util.*;
-class random
-{
-public class void main(String [] args)
-{
-int arr[]=new int[10];
-random number=new random();
-for(int i=0;i<10;i++)
-{
-arr[i]=random.nextInt(100);
-}
-System.out.printn("generate number is:"+(number+1))
-}
-}
-uu
+Task Tracker
+
+A simple Task Tracker application built with HTML, CSS, and JavaScript. This app allows users to manage their tasks by adding, completing, and deleting them efficiently.
+
+Features
+
+Add Tasks: Input new tasks and add them to the list.
+
+Complete Tasks: Mark tasks as completed with a click.
+
+Delete Tasks: Remove tasks when they're no longer needed.
+
+Responsive Design: Works well on desktop and mobile devices.
+
+
+Technologies Used
+
+HTML: Structure of the application.
+
+CSS: Styling and layout.
+
+JavaScript: Interactivity and functionality.
